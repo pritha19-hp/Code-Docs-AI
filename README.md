@@ -16,6 +16,18 @@ An AI-powered documentation generator that converts code into clean and understa
 - JavaScript
 - AI Integration
 
+## Screenshots
+
+### Dashboard Page
+![Dashboard Page](dashboard page.png)
+
+### Generate Page
+![Generate Page](generate page.png)
+
+### History Page
+![History Page](history page.png)
+
 ## Author
 
 Pritha Kundu
+
