@@ -2,12 +2,15 @@
 
 An AI-powered documentation generator that converts code into clean and understandable documentation automatically.
 
-## Features
-
-- Generate documentation from code
-- Simple and clean interface
-- AI-powered explanations
-- Fast and easy to use
+## Project Features
+- 🤖 AI-powered document generation
+- 📄 Automatic technical documentation creation
+- ⚡ Fast prompt-to-document workflow
+- 🧠 Smart formatting and structured output
+- 📂 Document history management
+- 🎨 Clean and responsive user interface
+- 💻 Browser-based access without installation
+- 🚀 Productivity-focused design
 
 ## Tech Stack
 
@@ -26,6 +29,15 @@ An AI-powered documentation generator that converts code into clean and understa
 
 ### History Page
 ![History Page](history page.png)
+
+## 🚀 Live Project
+
+[Code Docs AI](https://replit.com/@pritha123kundu/Code-Docs-AI)
+
+## 📂 GitHub Repository
+
+[GitHub Repo](https://github.com/pritha19-hp/Code-Docs-AI)
+
 
 ## Author
 
