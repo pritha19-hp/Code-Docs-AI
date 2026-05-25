@@ -1,3 +1,4 @@
+import { IncomingMessage , ServerResponse } from 'http';
 import express, { type Express } from "express";
 import cors from "cors";
 import pinoHttp = require ('pino-http');
@@ -10,8 +11,8 @@ app.use(
   pinoHttp({
     logger,
     serializers: {
-      req: (req: any) => ({ id: req.id, method: req.method, url: req.url?.split("?")[0], }),
-      res: (res: any) => ({ statusCode: res.statusCode }),
+      req: (req:IncomingMessage) => ({ id: req.id, method: req.method, url: req.url?.split("?")[0], }),
+      res: (res:ServerResponse ) => ({ statusCode: res.statusCode }),
     },
   }),
 );
