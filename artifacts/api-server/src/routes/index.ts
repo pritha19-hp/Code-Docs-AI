@@ -3,7 +3,7 @@ import healthRouter from "./health";
 import docsRouter from "./docs";
 import openaiRouter from "./openai";
 
-const router: Router = Router();.
+const router: Router = Router();
 
 router.use(healthRouter);
 router.use(docsRouter);
