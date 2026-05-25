@@ -1,4 +1,4 @@
-import { IncomingMessage , ServerResponse } from 'http';
+import { IncomingMessage, ServerResponse } from 'http';
 import express, { type Express } from "express";
 import cors from "cors";
 import pinoHttp from 'pino-http';
@@ -8,14 +8,21 @@ import { logger } from "./lib/logger";
 const app: Express = express();
 
 app.use(
-  pinohttp({
+  pinoHttp({
     logger,
     serializers: {
-      req: (req:IncomingMessage) => ({ id: req.id, method: req.method, url: req.url?.split("?")[0], }),
-      res: (res:ServerResponse ) => ({ statusCode: res.statusCode }),
+      req: (req: IncomingMessage) => ({
+        id: (req as any).id,
+        method: req.method,
+        url: req.url?.split("?")[0],
+      }),
+      res: (res: ServerResponse) => ({
+        statusCode: res.statusCode,
+      }),
     },
-  }),
+  })
 );
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
