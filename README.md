@@ -32,7 +32,7 @@ An AI-powered documentation generator that converts code into clean and understa
 
 ## 🚀 Live Project
 
-[Code Docs AI](https://replit.com/@pritha123kundu/Code-Docs-AI) or https://bd991c1f-0029-48fe-9c96-8523718a5e94-00-wqmtz9lcp8av.sisko.replit.dev/
+[Code Docs AI](https://bd991c1f-0029-48fe-9c96-8523718a5e94-00-wqmtz9lcp8av.sisko.replit.dev/)
 
 ## 📂 GitHub Repository
 
